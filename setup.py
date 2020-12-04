@@ -8,11 +8,9 @@ import codecs
 
 requires = ['Django', 'django-import-export', 'django-author']
 
-version = subprocess.check_output(['git','describe','--abbrev=0','--tags']).decode("utf-8")
-
 setup(
         name='django-import-export-celery',
-        version=version,
+        version='0.1.3',
         author='Timothy Hobbs',
         author_email='timothy.hobbs@auto-mat.cz',
         url='https://github.com/auto-mat/django-import-export-celery',
